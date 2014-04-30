@@ -11,7 +11,7 @@ namespace ConsoleApplication1
         static void Main(string[] args)
         {
             //string plistFile = Console.ReadLine();
-            string plistFile = @"E:\imageCreate\TileActionImage2.plist";
+            string plistFile = @"E:\imageCreate\PopLayerImg.plist";
             List<PlistData> list = PlistHelper.ReadPlist(plistFile);
 
 
