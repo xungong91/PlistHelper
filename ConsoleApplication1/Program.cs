@@ -11,9 +11,10 @@ namespace ConsoleApplication1
         static void Main(string[] args)
         {
             //string plistFile = Console.ReadLine();
-            string plistFile = @"E:\imageCreate\PopLayerImg.plist";
-            List<PlistData> list = PlistHelper.ReadPlist(plistFile);
+            //string plistFile = @"C:\work\gametrayImage.plist";
+            //List<PlistData> list = PlistHelper.ReadPlist(plistFile);
 
+            new SeparationPictures().StartCutPanda(@"C:\Users\gx\Desktop\tiantiankupaoxiongmao_81\assets\panda_anim.png", @"C:\Users\gx\Desktop\tiantiankupaoxiongmao_81\assets\panda");
 
             Console.Read();
         }
