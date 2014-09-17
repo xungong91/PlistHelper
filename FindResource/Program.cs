@@ -10,8 +10,9 @@ namespace FindResource
     {
         static void Main(string[] args)
         {
-            OpenImage oi = new OpenImage("dude_animation_set.png", "dude.animation_set_index");
-            oi.open();
+           // OpenImage oi = new OpenImage("dude_animation_set.png", "dude.animation_set_index");
+           // oi.open();
+            TwoJPGMergePNG tw = new TwoJPGMergePNG("pieces");
         }
     }
 }
