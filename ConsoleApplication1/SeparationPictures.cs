@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Drawing;
 using System.Drawing.Imaging;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -23,7 +24,7 @@ namespace ConsoleApplication1
         {
             mBitMap = new Bitmap(fileName);
             mOutPath = outPath;
-            int run = 93, jump = 185, roll = 278, turn = 372, burn = 462, turn2 = 558, deal = 652, sprint = 743;
+            int run = 92, jump = 185, roll = 278, turn = 372, burn = 462, turn2 = 558, deal = 651, sprint = 743;
             int[] height = { run, jump, roll, turn, burn, turn2, deal, sprint };
 
             saveActionImages("run", height, 0);
