@@ -12,7 +12,8 @@ namespace FindResource
         {
            // OpenImage oi = new OpenImage("dude_animation_set.png", "dude.animation_set_index");
            // oi.open();
-            TwoJPGMergePNG tw = new TwoJPGMergePNG("pieces");
+           // TwoJPGMergePNG tw = new TwoJPGMergePNG("pieces");
+            CutPiecesImage cpi = new CutPiecesImage("pieces");
         }
     }
 }
